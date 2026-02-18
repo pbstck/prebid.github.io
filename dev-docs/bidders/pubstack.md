@@ -3,13 +3,16 @@ layout: bidder
 title: Pubstack
 description: Prebid Pubstack Bidder Adapter
 biddercode: pubstack
+prebid_member: true
 pbjs: true
 pbs: true
 gvl_id: 1408
 media_types: banner, video, native
+multiformat_supported: will-bid-on-any
 tcfeu_supported: true
 usp_supported: true
 gpp_supported: true
+gpp_sids: tcfeu, tcfca, usnat, usstate_all, usp
 coppa_supported: true
 userId: *
 schain_supported: true
@@ -17,7 +20,9 @@ dchain_supported: true
 fpd_supported: true
 floors_supported: true
 deals_supported: true
+safeframes_ok: true
 privacy_sandbox: paapi, topics
+ortb_blocking_supported: true
 sidebarType: 1
 ---
 
