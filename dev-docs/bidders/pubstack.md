@@ -11,7 +11,6 @@ media_types: banner, video, native
 multiformat_supported: will-bid-on-any
 tcfeu_supported: true
 usp_supported: true
-gpp_supported: true
 gpp_sids: tcfeu, tcfca, usnat, usstate_all, usp
 coppa_supported: true
 userId: all
