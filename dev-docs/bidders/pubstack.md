@@ -14,7 +14,7 @@ usp_supported: true
 gpp_supported: true
 gpp_sids: tcfeu, tcfca, usnat, usstate_all, usp
 coppa_supported: true
-userId: *
+userId: all
 schain_supported: true
 dchain_supported: true
 fpd_supported: true
